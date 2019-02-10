@@ -1,0 +1,75 @@
+.une
+{
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	
+	column-width: 200px;
+	-webkit-column-width: 200px;
+	-moz-column-width: 200px;
+	
+	-webkit-column-gap: 25px;
+	-moz-column-gap: 25px;
+	column-gap: 25px;
+
+	-webkit-column-rule: dashed 3px black;
+	-moz-column-rule: dashed 3px black;
+	column-rule: dashed 3px black;
+
+	-webkit-column-break-before:auto;
+	-moz-column-break-before:auto;
+	column-break-before:auto;
+
+	-webkit-hyphens: auto ;
+	-moz-hyphens: auto ;
+	hyphens: auto ;
+
+	text-align: justify;
+	background-image: linear-gradient(to right,brown 90%,green,blue,yellow);
+	width: 1200px;
+	height: 300px;
+}
+
+h1
+{
+	-webkit-column-span: all;
+	-moz-column-span: all;
+	column-span: all;
+}
+.deux
+{
+	background-image: radial-gradient(circle at top left, white, blue);
+height: 300px;
+width: 1200px;
+}
+.trois
+{
+	background-image: repeating-linear-gradient(to top,blue,yellow 100px);
+height: 300px;
+width: 1200px;
+}
+#sunset
+{
+	
+
+	-webkit-transform: scale(1.3,0.6) rotate(10deg);
+
+
+}
+.quatre
+{
+ height: 300px;
+width: 1200px;
+background-color: blue;
+transition-property: background-color;
+transition-duration: 2s;
+transition-delay: 0.5s;
+transition-timing-function: ease;
+}
+.quatre:hover
+{
+background-color: green;
+}
+
+/*OU
+    transition: background-color 2s ease, width 1s linear;*/
